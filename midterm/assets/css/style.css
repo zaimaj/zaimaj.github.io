@@ -1,0 +1,26 @@
+.container {
+    text-align: center; /* Centers content horizontally */
+}
+
+.image-logo {
+    max-width: 200px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+#title {
+    font-size: 24px; /* Adjust size as needed */
+    margin-top: 10px; /* Adjust spacing as needed */
+}
+
+#intro {
+    margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.leaves {
+    position: fixed; /* Fixed positioning to keep it in the same place when scrolling */
+    top: 0; /* Position at the top */
+    left: 0; /* Position at the left */
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    z-index: 1; /* Ensure it's above other content */
+}
