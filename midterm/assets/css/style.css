@@ -1,26 +1,151 @@
 .container {
-    text-align: center; /* Centers content horizontally */
+    text-align: center; 
+ 
 }
 
 .image-logo {
-    max-width: 200px; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 200px; 
+    height: auto; 
 }
 
 #title {
-    font-size: 24px; /* Adjust size as needed */
-    margin-top: 10px; /* Adjust spacing as needed */
-}
-
-#intro {
-    margin-top: 20px; /* Adjust spacing as needed */
+    font-size: 24px; 
+    margin-top: 10px; 
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+    /* font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: xx-large;  */
 }
 
 .leaves {
-    position: fixed; /* Fixed positioning to keep it in the same place when scrolling */
-    top: 0; /* Position at the top */
-    left: 0; /* Position at the left */
-    width: 300px; /* Adjust size as needed */
-    height: auto;
-    z-index: 1; /* Ensure it's above other content */
+    top: 0; 
+    position: absolute;
+    left: 0; 
+    width: 170px; 
+    z-index: 1; 
 }
+  .image-container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+  }
+    
+
+  .image-container img {
+    width: 40%;
+    height: auto;
+    margin-right: 30px;
+  }
+ 
+  .About {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:flex-start;
+    align-items: flex-start; 
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+    
+    .about-section {
+        width: 40%;
+        margin-top: 35px;
+        margin-right: 70px; 
+        margin-left: 0px;
+        justify-content: left;
+       
+    }
+    
+    .About h2 {
+        width: 100%; 
+        margin-top: 400px;
+        margin-right: 750px;
+        font-family: "Emilys Candy", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+    }
+    
+    .about-image {
+        width: 52%; 
+    }
+    
+    .about-image img{
+        width: 45%; 
+        height: auto;
+        margin-top: 53px;
+        margin-bottom: 50px;
+    }
+
+    .about-image img:first-child {
+        margin-right: 20px; 
+    }
+    
+    .about-image img:last-child {
+        margin-left: 20px; 
+    }
+
+.intro{
+    text-align: center;
+} 
+
+.intro h4 {
+    margin-top: 20px;
+}
+
+
+.search-icon {
+    position: fixed;
+    top: 10px; 
+    right: 100px; 
+    z-index: 9999; 
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.search-icon img {
+    width: 24px; 
+    height: 24px;
+    cursor: pointer;
+
+}
+.search-icon img:hover{
+opacity: 0.7;
+}
+
+#menu {
+    margin-top: 200px;
+    font-family: "Emilys Candy", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xx-large;
+        display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+}
+
+.menu-image {
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-link{
+    position: fixed;
+    top: 10px; 
+    right: 150px; 
+    z-index: 9999; 
+    color: black;
+    text-decoration: none;
+    font-family: "Annapurna SIL", serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.6s ease;
+}
+
+.menu-link:hover{
+    text-decoration: underline;
+    }
