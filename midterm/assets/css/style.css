@@ -11,15 +11,11 @@
 #title {
     font-size: 24px; 
     margin-top: 10px; 
-    font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: xx-large;
-    /* font-family: "Emilys Candy", serif;
+    
+    font-family: "Emilys Candy", serif;
     font-weight: 400;
     font-style: normal; 
-    font-size: xx-large;  */
+    font-size: xx-large;  
 }
 
 .leaves {
