@@ -45,18 +45,7 @@ body {
 	justify-content: space-around;
 	align-items: center;
 }
-/* 
-#q2-big-box {
-	display: flex; 
-	flex-direction: column;
-	 size: small;
-  }
 
-  #q2-tiny-box {
-	flex: 1; 
-	text-align: center;
-	
-  }  */
 
   .q2-big-box {
 	display: flex; 
