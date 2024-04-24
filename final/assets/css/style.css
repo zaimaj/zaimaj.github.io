@@ -1,0 +1,292 @@
+
+#navbar {
+	height: 60px;
+	background: #ffffff;
+}
+
+.navbar-item {
+    float:right;
+	line-height: 60px;
+	opacity: 1;
+    position: fixed; 
+    right: 20px; 
+    top: 0; 
+}
+	
+.navbar-item a {
+    color: black; 
+    text-decoration: none;
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#Welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#Welcome {
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 800;
+    font-style: normal;
+   
+}
+
+.emoji{
+     display: inline-block; 
+     display: flex;  
+    justify-content: center;
+    position: absolute;
+    bottom: 60px; 
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    margin-right: 10px;
+    }
+
+    .emoji span {
+        margin-right: 10px; 
+    }
+
+    #name h1{
+        font-family: "Nanum Myeongjo", serif;
+  font-weight: 400;
+  font-style: normal;
+    }
+    
+    .my-image {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        margin-right: 50px;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .my-image {
+          position: static;
+          margin: 0 auto;
+          display: block;
+        }
+      }
+
+      #name-info {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        margin-left: 50px;
+        width: 35%;
+
+    margin: 0 auto; /* Center the element horizontally */
+    padding: 20px; /* Add padding to the paragraph */
+    text-align: left;
+    /* background-color: #d7d9e8;  */
+    /* border-radius: 5px;  */
+    margin-left: 60px;
+    font-size: larger;
+
+    }
+#name-info{
+    font-family: "Nanum Myeongjo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+    #name {
+        text-align: left; 
+        margin-bottom: 30px; 
+        margin-left: 200px;
+        margin-top: 20px;
+        position: absolute;
+    top: 20%; 
+    transform: translateY(-50%);
+    left: 0;
+
+    }
+    
+    #flippable-image {
+      
+	animation: flip 3.5s infinite;
+    }
+    
+    @keyframes flip {
+        0% {
+          transform: perspective(500px);
+        }
+        50% {
+          transform: perspective(500px) rotateY(180deg); 
+        }
+        100% {
+          transform: perspective(500px) rotateY(180deg) rotateX(180deg); 
+        }
+      }
+
+      #heart-link{
+        text-decoration: none;
+      }
+/* until heart emoji is images for love html*/
+   .item {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    overflow: hidden;
+    width: 270px; 
+    height: 270px; 
+    margin-top: 70px;
+  
+  }
+  .item:hover{
+    border: 2px solid rgb(16, 142, 108);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+  .row {
+    width: 100%;
+    height: auto; 
+    text-align: center;
+  }
+  
+  .item {
+    margin-right: 100px;
+  }
+  
+  .row {
+    margin-bottom: 40px;
+  }
+  /* gets larger */
+.item:hover{
+  transform: scale(1.2); 
+}
+
+  
+  #heart-emoji1{
+    position: absolute;
+    top: 0;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%);
+    font-size: 30px; 
+  }
+/* wave css code */
+  .item-w {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    overflow: hidden;
+    width: 270px; 
+    height: 270px; 
+    margin-top: 70px;
+  
+  }
+  .item-w:hover{
+    border: 2px solid rgb(92, 206, 235);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+  .item-w img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+  .row-w {
+    width: 100%;
+    height: auto; 
+    text-align: center;
+  }
+  
+  .item-w {
+    margin-right: 100px;
+  }
+  
+  .row-w {
+    margin-bottom: 40px;
+  }
+  /* gets larger */
+.item-w:hover{
+  transform: scale(1.2); 
+}
+
+#wave-emoji1{
+  position: absolute;
+  top: 0;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  font-size: 30px; 
+}
+
+/* sun css code */
+.item-s {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  overflow: hidden;
+  width: 270px; 
+  height: 270px; 
+  margin-top: 70px;
+
+}
+.item-s:hover{
+  border: 2px solid rgb(92, 206, 235);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.item-s img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+
+.row-s {
+  width: 100%;
+  height: auto; 
+  text-align: center;
+}
+
+.item-s{
+  margin-right: 100px;
+}
+
+.row-s {
+  margin-bottom: 40px;
+}
+/* gets larger */
+.item-s:hover{
+transform: scale(1.2); 
+}
+
+#sun-emoji1{
+  position: absolute;
+  top: 0;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%);
+  font-size: 30px; 
+}
+
+#sun-link{
+  text-decoration: none;
+}
+
+#wave-emoji {
+  text-decoration:underline;
+  color: blue;
+}
+
+#sun-emoji{
+  text-decoration: underline;
+  color: rgb(237, 210, 140);
+}
+
+#heart-emoji{
+  text-decoration: underline;
+  color: rgb(121, 190, 218);
+}

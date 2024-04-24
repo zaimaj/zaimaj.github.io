@@ -61,24 +61,15 @@ function closeLightbox(lightboxID) {
 // 	var lightboxElements = document.getElementsByClassName('lightbox');
 
 // 	// sneak preview of Javascript loops, which will go through every element in an array of elements
-// 	for (var i = 0; i < lightboxElements.length; i++) {
-// 		// get id of this particular .lightbox div
-// 		var id = lightboxElements[i].id;
-// 		// call closeLightbox for this id
-// 		closeLightbox(id);
-// 	}
-// }
 
 // TODO: set the closeAllLightboxes function to run when #lightbox-overlay is clicked on.
 const images = document.querySelectorAll('#pictures img');
         
-// Get all the lightbox elements
 const lightboxes = document.querySelectorAll('.lightbox');
 
-// Get the lightbox overlay element
+
 const lightboxOverlay = document.getElementById('lightbox-overlay');
 
-// Loop through each image
 images.forEach((image, index) => {
 	// Add click event listener to each image
 	image.addEventListener('click', () => {
